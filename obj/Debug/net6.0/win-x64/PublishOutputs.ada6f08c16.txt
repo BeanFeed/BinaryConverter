@@ -1,0 +1,2 @@
+C:\Users\Austin\VsCode\Apps\BinaryConverter\bin\Debug\net6.0\win-x64\publish\BinaryConverter.pdb
+C:\Users\Austin\VsCode\Apps\BinaryConverter\bin\Debug\net6.0\win-x64\publish\BinaryConverter.exe

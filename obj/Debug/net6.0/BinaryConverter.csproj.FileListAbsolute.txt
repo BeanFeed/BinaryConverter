@@ -1,0 +1,15 @@
+C:\Users\Austin\VsCode\Apps\BinaryConverter\bin\Debug\net6.0\BinaryConverter.exe
+C:\Users\Austin\VsCode\Apps\BinaryConverter\bin\Debug\net6.0\BinaryConverter.deps.json
+C:\Users\Austin\VsCode\Apps\BinaryConverter\bin\Debug\net6.0\BinaryConverter.runtimeconfig.json
+C:\Users\Austin\VsCode\Apps\BinaryConverter\bin\Debug\net6.0\BinaryConverter.dll
+C:\Users\Austin\VsCode\Apps\BinaryConverter\bin\Debug\net6.0\BinaryConverter.pdb
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\BinaryConverter.csproj.AssemblyReference.cache
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\BinaryConverter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\BinaryConverter.AssemblyInfoInputs.cache
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\BinaryConverter.AssemblyInfo.cs
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\BinaryConverter.csproj.CoreCompileInputs.cache
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\BinaryConverter.dll
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\refint\BinaryConverter.dll
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\BinaryConverter.pdb
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\BinaryConverter.genruntimeconfig.cache
+C:\Users\Austin\VsCode\Apps\BinaryConverter\obj\Debug\net6.0\ref\BinaryConverter.dll
