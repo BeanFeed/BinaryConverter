@@ -54,7 +54,7 @@ namespace BinaryConverter
             if(opt == 0)
             {
                 string input = Console.ReadLine();
-                if(ContainsNotInt(input))
+                if(ContainsNotint(input))
                 {
                     Console.WriteLine("Input Contains Symbols Other Than Numbers");
                     return;
@@ -73,7 +73,7 @@ namespace BinaryConverter
                 Console.WriteLine("Decimal Format: " + ToDecimal(input)); 
             }
         }
-        static bool ContainsNotInt(string input)
+        static bool ContainsNotint(string input)
         {
             bool result = false;
             int j;
@@ -142,7 +142,7 @@ namespace BinaryConverter
                 bitLength++;
 
             }
-            while(i < decim);
+            while(i <= decim);
             bitLength--;
 
             //Console.WriteLine(bitLength);
