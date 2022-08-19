@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 
 namespace BinaryConverter
 {
     class Program
     {
-        static int GetOption()
+        static int GetOption(ConsoleColor defaultBack, ConsoleColor defaultFore)
         {
             int selectedOpt = 0;
             while(true)
@@ -16,21 +16,21 @@ namespace BinaryConverter
                     Console.BackgroundColor = ConsoleColor.White;
                     Console.ForegroundColor = ConsoleColor.Black;
                     Console.WriteLine("Convert Decimal To Binary");
-                    Console.BackgroundColor = ConsoleColor.Black;
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = defaultBack;
+                    Console.ForegroundColor = defaultFore;
                     Console.WriteLine("Convert Binary To Decimal");
                 }
                 else
                 {
-                    Console.BackgroundColor = ConsoleColor.Black;
-                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.BackgroundColor = defaultBack;
+                    Console.ForegroundColor = defaultFore;
                     Console.WriteLine("Convert Decimal To Binary");
                     Console.BackgroundColor = ConsoleColor.White;
                     Console.ForegroundColor = ConsoleColor.Black;
                     Console.WriteLine("Convert Binary To Decimal");
                 }
-                Console.BackgroundColor = ConsoleColor.Black;
-                Console.ForegroundColor = ConsoleColor.White;
+                Console.BackgroundColor = defaultBack;
+                Console.ForegroundColor = defaultFore;
                 ConsoleKeyInfo key = Console.ReadKey();
                 if(key.Key == ConsoleKey.DownArrow && selectedOpt == 0)
                 {
@@ -50,7 +50,7 @@ namespace BinaryConverter
         }
         static void Main()
         {
-            int opt = GetOption();
+            int opt = GetOption(Console.BackgroundColor, Console.ForegroundColor);
             if(opt == 0)
             {
                 string input = Console.ReadLine();
