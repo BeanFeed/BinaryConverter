@@ -72,6 +72,8 @@ namespace BinaryConverter
                 }
                 Console.WriteLine("Decimal Format: " + ToDecimal(input)); 
             }
+            Console.WriteLine("Press Any Key To Exit...");
+            Console.ReadKey();
         }
         static bool ContainsNotint(string input)
         {
